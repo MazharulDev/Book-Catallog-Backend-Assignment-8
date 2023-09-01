@@ -13,7 +13,18 @@ const getAllUser = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+const getUserById = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await userService.getUserById(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User fetched successfully',
+    data: result,
+  });
+});
 
 export const userController = {
   getAllUser,
+  getUserById,
 };
