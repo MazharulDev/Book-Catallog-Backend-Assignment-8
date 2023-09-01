@@ -29,6 +29,16 @@
             "date": 1693568005932,
             "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-01-09-17-success.log",
             "hash": "d5f33c918649be4e16985d96854d16b2334631baac18caa90ae3ee7401b055cf"
+        },
+        {
+            "date": 1693580394961,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-01-09-20-success.log",
+            "hash": "790c4298cdcac8d103dc04101de87db1b9e54b9d67a75e7b9738f031a0297c2f"
+        },
+        {
+            "date": 1693580524566,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-01-09-21-success.log",
+            "hash": "6924c192bfecbcf04f639bf8fc0dbf505bf02e9a389f03cca1e09da0f0c31838"
         }
     ],
     "hashType": "sha256"
