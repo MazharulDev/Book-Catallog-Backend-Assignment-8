@@ -1,0 +1,35 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/mazharuldev/project/assignment-8/logs/winston/errors/.416295c46d9023da39488e327bdead06960c0fc9-audit.json",
+    "files": [
+        {
+            "date": 1693547833018,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/errors/phu-2023-01-09-11-error.log",
+            "hash": "4bf980abc35a5521118b6ffd350eaf1bfa1c674318fa95aad09cf23f5be7649d"
+        },
+        {
+            "date": 1693548756981,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/errors/phu-2023-01-09-12-error.log",
+            "hash": "c7ce5e4d67828f75d7ace00c0fbb06bdea3a6ab1b2bfb34bcd6d15701054b509"
+        },
+        {
+            "date": 1693556793102,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/errors/phu-2023-01-09-14-error.log",
+            "hash": "c08eddc4081fb396153c8e704c25c6d23553202c33aaf1955f498e1b282d72e1"
+        },
+        {
+            "date": 1693562753238,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/errors/phu-2023-01-09-16-error.log",
+            "hash": "2d5874736ad9a39707b4b9a29277db5b889c35897c89f9194a09b9fce34361a2"
+        },
+        {
+            "date": 1693568005984,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/errors/phu-2023-01-09-17-error.log",
+            "hash": "555b72224aa75a4b7d8aa38f20f44123988fa9d235df604c34159f4b7c348203"
+        }
+    ],
+    "hashType": "sha256"
+}
