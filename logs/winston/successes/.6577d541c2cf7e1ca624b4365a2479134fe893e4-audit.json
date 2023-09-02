@@ -89,6 +89,21 @@
             "date": 1693657137285,
             "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-18-success.log",
             "hash": "29fba110ccaefd0b90cdf9a48890d3f78d3a06317dfd6b7519e060a8ebd766e7"
+        },
+        {
+            "date": 1693663877551,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-20-success.log",
+            "hash": "19dcbfed20f3717bd5a0f173b628025265908cdb6030f3f9989d1eed019d18ae"
+        },
+        {
+            "date": 1693669591006,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-21-success.log",
+            "hash": "ec677dbf6f1c94a8e4d0f53a45c9c2cfd126b1696e80b7c2c23a89619081afc5"
+        },
+        {
+            "date": 1693670575387,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-22-success.log",
+            "hash": "85b3943f18208ae98a5a8a88c9ae64cc100d1eca6d4352d7e05b9f853ca3c759"
         }
     ],
     "hashType": "sha256"

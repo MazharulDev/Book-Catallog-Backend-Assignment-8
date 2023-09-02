@@ -14,7 +14,8 @@ const createOrder = catchAsync(async (req: Request, res: Response) => {
   });
 });
 const getAllOrders = catchAsync(async (req: Request, res: Response) => {
-  const result = await orderService.getAllOrders();
+  const token = req.headers.authorization;
+  const result = await orderService.getAllOrders(token);
   sendResponse(res, {
     statusCode: httpStatus.OK,
     success: true,
