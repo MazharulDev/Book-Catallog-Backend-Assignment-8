@@ -13,7 +13,18 @@ const createBook = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+const getBookById = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await bookService.getBookById(id);
+  sendResponse(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Book fetched successfully',
+    data: result,
+  });
+});
 
 export const bookController = {
   createBook,
+  getBookById,
 };
