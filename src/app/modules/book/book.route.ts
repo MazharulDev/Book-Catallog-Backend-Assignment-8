@@ -10,6 +10,8 @@ router.post(
   bookController.createBook
 );
 
+router.get('/', bookController.getAllbooks);
+
 router.get('/:id', bookController.getBookById);
 router.patch('/:id', auth(ENUM_USER_ROLE.ADMIN), bookController.updateBookById);
 router.delete(
