@@ -8,6 +8,12 @@ const createOrder = async (data: any): Promise<Order | null> => {
   return result;
 };
 
+const getAllOrders = async (): Promise<Order[]> => {
+  const result = await prisma.order.findMany({});
+  return result;
+};
+
 export const orderService = {
   createOrder,
+  getAllOrders,
 };
