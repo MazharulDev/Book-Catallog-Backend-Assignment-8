@@ -7,9 +7,18 @@ import { jwtHelpers } from '../../../helpers/jwtHelpers';
 import prisma from '../../../shared/prisma';
 import { ILoginUser } from './auth.interface';
 
-const createUser = async (data: User): Promise<User> => {
+const createUser = async (data: User): Promise<Partial<User>> => {
   const result = await prisma.user.create({
     data,
+    select: {
+      id: true,
+      name: true,
+      email: true,
+      role: true,
+      contactNo: true,
+      address: true,
+      profileImg: true,
+    },
   });
   return result;
 };

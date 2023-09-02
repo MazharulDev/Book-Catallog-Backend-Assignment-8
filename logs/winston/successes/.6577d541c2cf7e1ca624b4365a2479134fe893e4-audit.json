@@ -49,6 +49,11 @@
             "date": 1693617225795,
             "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-07-success.log",
             "hash": "56611bc1ef172cd73b74ca2012d3839578df39afa4a436109c28b3af9567205e"
+        },
+        {
+            "date": 1693623946724,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-09-success.log",
+            "hash": "37dcec0b2f201df09f6b086fc9defbed2abadb7f1f810bcab6c11783eef7be0a"
         }
     ],
     "hashType": "sha256"
