@@ -23,8 +23,22 @@ const getAllOrders = catchAsync(async (req: Request, res: Response) => {
     data: result,
   });
 });
+const getOrderCustomerAndAdmin = catchAsync(
+  async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const token = req.headers.authorization;
+    const result = await orderService.getOrderCustomerAndAdmin(id, token);
+    sendResponse(res, {
+      statusCode: httpStatus.OK,
+      success: true,
+      message: 'Orders fetched successfully',
+      data: result,
+    });
+  }
+);
 
 export const orderController = {
   createOrder,
   getAllOrders,
+  getOrderCustomerAndAdmin,
 };
