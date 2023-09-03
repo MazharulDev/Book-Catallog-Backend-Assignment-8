@@ -104,6 +104,16 @@
             "date": 1693670575387,
             "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-02-09-22-success.log",
             "hash": "85b3943f18208ae98a5a8a88c9ae64cc100d1eca6d4352d7e05b9f853ca3c759"
+        },
+        {
+            "date": 1693708821953,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-03-09-08-success.log",
+            "hash": "dd0e596d470f5df4e7ddba13d732505a13910902b47b63b85c8c7bca70924b40"
+        },
+        {
+            "date": 1693719908083,
+            "name": "/home/mazharuldev/project/assignment-8/logs/winston/successes/phu-2023-03-09-11-success.log",
+            "hash": "f1baceabf6e37ffea6d31202b1ecc764744c4493d2fd20ec5bc89570e0ee7037"
         }
     ],
     "hashType": "sha256"

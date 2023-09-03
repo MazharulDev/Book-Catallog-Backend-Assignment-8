@@ -19,5 +19,6 @@ router.delete(
   auth(ENUM_USER_ROLE.ADMIN),
   bookController.deleteBookById
 );
+router.get('/:categoryId/category', bookController.getBooksByCategory);
 
 export const bookRoutes = router;

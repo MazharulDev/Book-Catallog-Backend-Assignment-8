@@ -1,4 +1,5 @@
 export type IBooksFilterRequest = {
+  id?: string;
   search?: string | undefined;
   title?: string | undefined;
   author?: string | undefined;
