@@ -5,6 +5,9 @@
 #### User
 
 - https://book-catallog-orpin.vercel.app/api/v1/auth/signup (POST)
+
+- https://book-catallog-orpin.vercel.app/api/v1/auth/login (POST)
+
 - https://book-catallog-orpin.vercel.app/api/v1/users (GET)
 - https://book-catallog-orpin.vercel.app/api/v1/users/0bb3002c-41e8-4dba-a604-bcadc604ba84 (Single GET)
 - https://book-catallog-orpin.vercel.app/api/v1/users/0bb3002c-41e8-4dba-a604-bcadc604ba84(PATCH)
